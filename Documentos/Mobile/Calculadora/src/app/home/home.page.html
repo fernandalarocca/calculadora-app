@@ -1,16 +1,16 @@
 <ion-content>
   <ion-item>
-    <ion-label position="floating">Digite o primeiro número:</ion-label>
+    <ion-label class="custom-label" position="floating">Digite o primeiro número:</ion-label>
     <input type="text" [(ngModel)]="primeiroNumero" name="primeiroNumero">
   </ion-item>
 
   <ion-item>
-    <ion-label position="floating">Digite o segundo número:</ion-label>
+    <ion-label class="custom-label" position="floating">Digite o segundo número:</ion-label>
     <input type="text" [(ngModel)]="segundoNumero" name="primeiroNumero">
   </ion-item>
 
   <ion-item>
-    <ion-label>Escolha uma operação:</ion-label>
+    <ion-label class="custom-select">Escolha uma operação:</ion-label>
     <ion-select [(ngModel)]="operacaoSelecionada">
       <ion-select-option value="opcao1">Soma</ion-select-option>
       <ion-select-option value="opcao2">Subtração</ion-select-option>
